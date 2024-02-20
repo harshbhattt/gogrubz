@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-everything-you',
+  selector: 'everything-you',
   templateUrl: './everything-you.component.html',
   styleUrls: ['./everything-you.component.scss']
 })

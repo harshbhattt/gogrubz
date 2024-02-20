@@ -1,0 +1,27 @@
+.map-container {
+  .map {
+    border-radius: 20px;
+    position: relative;
+    .map-label {
+      position: absolute;
+      top: 5px;
+      left: 20px;
+      background-color: #ffffff;
+      border-radius: 20px;
+      padding: 15px;
+    }
+  }
+  .cities-list {
+    padding: 10px 50px;
+    @media (max-width: 480px) {
+      padding: 10px 15px;
+    }
+    ul {
+      margin: 0px;
+      padding: 0px;
+      li {
+        padding: 12px 5px;
+      }
+    }
+  }
+}

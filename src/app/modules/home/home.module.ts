@@ -9,6 +9,8 @@ import { EverythingYouComponent } from './components/everything-you/everything-y
 import { DownloadAppComponent } from './components/download-app/download-app.component';
 import { MapComponent } from './components/map/map.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { HeaderComponent } from './components/header/header.component';
+import { FindTheComponent } from './components/find-the/find-the.component';
 
 
 @NgModule({
@@ -19,7 +21,9 @@ import { FooterComponent } from './components/footer/footer.component';
     EverythingYouComponent,
     DownloadAppComponent,
     MapComponent,
-    FooterComponent
+    FooterComponent,
+    HeaderComponent,
+    FindTheComponent
   ],
   imports: [
     CommonModule,

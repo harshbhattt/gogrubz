@@ -1,0 +1,13 @@
+.everything-you-container {
+  padding: 30px 40px;
+  margin-bottom: 20px;
+  @media (max-width: 480px) {
+    padding: 30px 15px;
+  }
+  .phone-img {
+    // background-color: #fdf6f3;
+    border-radius: 20px;
+    // padding: 50px 50px 0 50px;
+    width: max-content;
+  }
+}
